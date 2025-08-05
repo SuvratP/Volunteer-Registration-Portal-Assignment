@@ -24,7 +24,7 @@ const ApplicantForm = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post('http://localhost:5000/api/applicants', formData);
+      const res = await axios.post('https://volunteer-registration-portal-assignment.onrender.com/api/applicants', formData);
       alert('Application submitted successfully!');
       setFormData({
         name: '',

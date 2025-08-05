@@ -19,7 +19,8 @@ const AdminView = () => {
 
   const fetchApplicants = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/applicants');
+      const res = await axios.get('https://volunteer-registration-portal-assignment.onrender.com/api/applicants');
+
       setApplicants(res.data);
     } catch (error) {
       console.error('Error fetching applicants:', error);

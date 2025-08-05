@@ -22,7 +22,8 @@ const Admin = () => {
 
   const fetchTotalApplicants = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/applicants"); // Adjust your backend URL if needed
+      const response = await axios.get("https://volunteer-registration-portal-assignment.onrender.com/api/applicants");
+
       setTotalApplicants(response.data.length);
     } catch (error) {
       console.error("Error fetching applicants:", error);
