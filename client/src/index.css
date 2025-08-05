@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  transition: 0.2s;
+}
